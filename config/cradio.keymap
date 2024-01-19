@@ -40,10 +40,10 @@
 
         quick_access {
             bindings = <
-  &none           &none             &kp RA(N7)  &kp RA(N0)        &kp RA(ASTERISK)    &kp RA(LEFT_PARENTHESIS)  &kp ASTERISK  &kp LEFT_PARENTHESIS  &none  &none
-  &kp LEFT_SHIFT  &kp SINGLE_QUOTE  &kp SEMI    &kp LEFT_BRACKET  &none               &none                     &none         &none                 &none  &kp RIGHT_SHIFT
-  &kp LCTRL       &kp X             &kp C       &kp V             &none               &none                     &none         &none                 &none  &kp RIGHT_CONTROL
-                                                &trans            &none               &none                     &none
+  &none           &none             &kp RA(N7)  &kp RA(N0)        &kp RA(N8)    &kp RA(N9)  &kp ASTERISK  &kp LEFT_PARENTHESIS  &none  &none
+  &kp LEFT_SHIFT  &kp SINGLE_QUOTE  &kp SEMI    &kp LEFT_BRACKET  &none         &none       &none         &none                 &none  &kp RIGHT_SHIFT
+  &kp LCTRL       &kp X             &kp C       &kp V             &none         &none       &none         &none                 &none  &kp RIGHT_CONTROL
+                                                &trans            &none         &none       &none
             >;
         };
     };
