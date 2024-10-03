@@ -60,10 +60,10 @@
 
         left_layer {
             bindings = <
-  &kp RA(RS(SEMI))  &kp LBKT            &kp LBRC    &kp RBRC       &kp PIPE      &kp CARET  &kp LPAR   &kp RPAR   &kp RBKT       &kp TILDE
-  &ht LSHFT EXCL    &kp AT              &kp HASH    &kp DLLR       &kp PRCNT     &kp ASTRK  &kp MINUS  &kp EQUAL  &kp BSLH       &ht RSHIFT GRAVE
-  &kp LCTRL         &ht LALT RA(RS(S))  &kp RA(N5)  &kp BACKSLASH  &kp ESCAPE    &kp AMPS   &kp UNDER  &kp PLUS   &ht RALT PIPE  &kp RCTRL
-                                                    &trans         &trans        &trans     &trans
+  &kp RA(RS(SEMI))  &kp LBKT            &kp LBRC    &kp RBRC       &kp PIPE      &kp AMPERSAND  &kp LPAR   &kp RPAR   &kp RBKT        &kp CARET
+  &ht LSHFT EXCL    &kp AT              &kp HASH    &kp DLLR       &kp PRCNT     &kp ASTRK      &kp MINUS  &kp EQUAL  &kp PLUS        &ht RSHIFT GRAVE
+  &kp LCTRL         &ht LALT RA(RS(S))  &kp RA(N5)  &kp BACKSLASH  &kp ESCAPE    &kp TILDE      &kp UNDER  &kp SEMI   &ht RALT COLON  &kp RCTRL
+                                                    &trans         &trans        &trans         &trans
             >;
         };
 
